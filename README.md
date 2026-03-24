@@ -91,3 +91,7 @@ The application demonstrates strong security practices:
 - Rate Limiting
 - Secure HTTP Headers (Helmet)
 - CORS Protection
+
+### Summary
+In Week 5 (**[Week 5 Report](Week5_Internship.pdf)**), the ethical hacking assessment confirmed that the application is not vulnerable to SQL Injection or CSRF attacks in its current implementation. The absence of database interaction prevents SQL Injection, while API key authentication and rate limiting effectively mitigate automated attacks.
+Overall, the application follows good security practices and demonstrates a secure design against the tested vulnerabilities.
